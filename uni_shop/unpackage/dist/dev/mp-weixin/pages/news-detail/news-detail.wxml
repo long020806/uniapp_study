@@ -1,0 +1,1 @@
+<view class="news_detail"><text class="title">{{news.title||"正在加载"}}</text><view class="info"><text>{{"发表时间："+(news.add_time||"")}}</text><text>{{"浏览次数："+(news.click||"")}}</text></view><view class="content"><rich-text nodes="{{news.zhaiyao||'<p>正在加载</p>'}}"></rich-text></view></view>

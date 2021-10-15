@@ -1,0 +1,1 @@
+<view class="content"><good-list vue-id="576f0adc-1" goods="{{goods}}" data-event-opts="{{[['^goodsClick',[['goGoodsDetail']]]]}}" bind:goodsClick="__e" bind:__l="__l"></good-list><view hidden="{{!(isOver)}}" class="isOver">-----没有更多商品了-----</view></view>

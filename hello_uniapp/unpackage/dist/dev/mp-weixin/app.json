@@ -1,0 +1,31 @@
+{
+    "pages": [
+        "pages/navigator/navigator",
+        "pages/list/list",
+        "pages/index/index",
+        "pages/message/message"
+    ],
+    "subPackages": [],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "static/logo.png",
+                "selectedIconPath": "static/logo.png"
+            },
+            {
+                "pagePath": "pages/message/message",
+                "text": "信息"
+            }
+        ]
+    },
+    "usingComponents": {},
+    "sitemapLocation": "sitemap.json"
+}
